@@ -7,7 +7,7 @@
 
 .navbar {
   height: 60px;
-  background-color: #0f1111;
+  background-color: #131a22;
   color: white;
   display: flex;
   justify-content: space-between;
@@ -65,7 +65,7 @@
   display: flex;
   justify-content: space-evenly;
   height: 40px;
-  width: 600px;
+  width: 800px;
 }
 
 .search-select {
@@ -147,4 +147,29 @@
 .menu-electronics a {
   font-weight: 700;
   font-size: 0.875rem;
+}
+
+.hero-section {
+  background-image: url(/images/hero_image.jpg);
+  background-size: cover;
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.hero-msg {
+  color: black;
+  background-color: white;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.875rem;
+  width: 80%;
+  margin-bottom: 25px;
+}
+
+.hero-msg a {
+  color: #007185;
 }
