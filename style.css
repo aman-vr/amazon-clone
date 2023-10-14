@@ -178,6 +178,7 @@
 
 .hero-msg a:hover {
   text-decoration: underline;
+  color: orange;
 }
 
 .box a:hover {
@@ -189,6 +190,7 @@
   justify-content: space-evenly;
   background-color: #e2e7e6;
   flex-wrap: wrap;
+  padding-bottom: 50px;
 }
 
 .box {
@@ -202,6 +204,8 @@
 .box-content {
   margin-right: 1rem;
   margin-left: 1rem;
+  display: flex;
+  flex-direction: column;
 }
 
 .box-img {
@@ -244,18 +248,22 @@
   background-image: url("/images/box8_image.jpg");
 }
 
-footer {
-  margin-top: 50px;
-}
-
 .footer-panel1 {
   background-color: #37475a;
-  color: white;
   height: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 0.875rem;
+}
+
+.footer-panel1 a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer-panel1:hover {
+  background-color: rgba(55, 71, 90, 0.9);
 }
 
 .footer-panel2 {
@@ -270,11 +278,20 @@ footer {
   margin-top: 20px;
 }
 
+ul p {
+  font-weight: 700;
+}
+
 ul a {
   display: flex;
   margin-top: 10px;
   font-size: 0.875rem;
   color: #dddddd;
+  text-decoration: none;
+}
+
+ul a:hover {
+  text-decoration: underline;
 }
 
 .panel3-border {
@@ -310,4 +327,14 @@ ul a {
   justify-content: center;
   gap: 0.6rem;
   font-size: 0.75rem;
+}
+
+.footer-panel4 a {
+  text-decoration: none;
+  color: white;
+  margin-right: 10px;
+}
+
+.footer-panel4 a:hover {
+  text-decoration: underline;
 }
