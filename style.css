@@ -5,6 +5,8 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
+/* NAV BAR */
+
 .navbar {
   height: 60px;
   background-color: #131a22;
@@ -126,6 +128,8 @@
   margin-right: 20px;
 }
 
+/* NAV MENU */
+
 .nav-menu {
   display: flex;
   height: 40px;
@@ -152,6 +156,8 @@
   font-weight: 700;
   font-size: 0.875rem;
 }
+
+/* HERO SECTION */
 
 .hero-section {
   background-image: url(/images/hero_image.jpg);
@@ -189,6 +195,8 @@
   color: orange;
 }
 
+/* SHOP SECTION */
+
 .shop-section {
   display: flex;
   justify-content: space-evenly;
@@ -206,14 +214,13 @@
 }
 
 .box-content {
-  margin-right: 1rem;
-  margin-left: 1rem;
+  margin: 1rem;
   display: flex;
   flex-direction: column;
 }
 
 .box-img {
-  height: 300px;
+  height: 250px;
   margin-top: 1rem;
   margin-bottom: 1rem;
   background-size: cover;
@@ -245,12 +252,13 @@
 
 #img-box7 {
   background-image: url("/images/box7_image.jpg");
-  background-size: cover;
 }
 
 #img-box8 {
   background-image: url("/images/box8_image.jpg");
 }
+
+/* FOOTER SECTION */
 
 .footer-panel1 {
   background-color: #37475a;
