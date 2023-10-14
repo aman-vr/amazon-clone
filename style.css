@@ -140,6 +140,10 @@
   font-size: 0.875rem;
 }
 
+.menu-all i {
+  margin-right: 5px;
+}
+
 .menu-ops {
   width: 75%;
 }
@@ -325,7 +329,7 @@ ul a:hover {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 0.6rem;
+  gap: 0.5rem;
   font-size: 0.75rem;
 }
 
