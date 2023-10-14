@@ -170,6 +170,76 @@
   margin-bottom: 25px;
 }
 
-.hero-msg a {
+.hero-msg a,
+.box a {
   color: #007185;
+  text-decoration: none;
+}
+
+.hero-msg a:hover {
+  text-decoration: underline;
+}
+
+.box a:hover {
+  color: orange;
+}
+
+.shop-section {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #e2e7e6;
+  flex-wrap: wrap;
+}
+
+.box {
+  height: 400px;
+  width: 22%;
+  background-color: white;
+  margin-top: 15px;
+  padding: 20px 0px 15px;
+}
+
+.box-content {
+  margin-right: 1rem;
+  margin-left: 1rem;
+}
+
+.box-img {
+  height: 300px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  background-size: cover;
+}
+
+#img-box1 {
+  background-image: url("/images/box1_image.jpg");
+}
+
+#img-box2 {
+  background-image: url("/images/box2_image.jpg");
+}
+
+#img-box3 {
+  background-image: url("/images/box3_image.jpg");
+}
+
+#img-box4 {
+  background-image: url("/images/box4_image.jpg");
+}
+
+#img-box5 {
+  background-image: url("/images/box5_image.jpg");
+}
+
+#img-box6 {
+  background-image: url("/images/box6_image.jpg");
+}
+
+#img-box7 {
+  background-image: url("/images/box7_image.jpg");
+  background-size: cover;
+}
+
+#img-box8 {
+  background-image: url("/images/box8_image.jpg");
 }
